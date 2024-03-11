@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.upper_nav{
+    background-color: #8CDEE9;
+    height: 70px;
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    
+}
+.nav .logo{
+    display: flex;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+}
+.logo p{
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav ul span{
+    margin-top: 20px;
+    background-color: rgb(225, 225, 4);
+    height: 20px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.right{
+    margin-left: 450px;
+    margin-top: 10px;
+    background: rgb(218, 218, 1);
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+}
+.right p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+}
+.rightt img{
+    height: 80px;
+    width: auto;
+    margin-left: 30px;
+}
+.container{
+    display: flex;
+}
+.first{
+    margin-top: 60px;
+    margin-left: 30px;
+    
+
+}
+.first p{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.first span{
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.box button img{
+    height: 30px;
+    width: auto;
+}
+.box{
+    display: flex;
+}
+.box .two{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.two img{
+    height: 50px;    
+    width: auto;
+}
+.two p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.box #explore{
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.box #watch{
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.second img{
+    height: 130vh;
+    margin-left: 200px;
+}
